@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		006ED8D31D85FCA6001C658A /* Wall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006ED8D21D85FCA6001C658A /* Wall.swift */; };
+		006ED8D51D85FD10001C658A /* Sticky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006ED8D41D85FD10001C658A /* Sticky.swift */; };
+		006ED8D71D865268001C658A /* UISticky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006ED8D61D865268001C658A /* UISticky.swift */; };
 		00CDF9141D85EB6A00B1A3F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CDF9131D85EB6A00B1A3F1 /* AppDelegate.swift */; };
 		00CDF9161D85EB6A00B1A3F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CDF9151D85EB6A00B1A3F1 /* ViewController.swift */; };
 		00CDF9191D85EB6A00B1A3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CDF9171D85EB6A00B1A3F1 /* Main.storyboard */; };
@@ -34,9 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		006ED8D21D85FCA6001C658A /* Wall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wall.swift; sourceTree = "<group>"; };
+		006ED8D41D85FD10001C658A /* Sticky.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sticky.swift; sourceTree = "<group>"; };
+		006ED8D61D865268001C658A /* UISticky.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISticky.swift; sourceTree = "<group>"; };
 		00CDF9101D85EB6A00B1A3F1 /* Stickies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stickies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00CDF9131D85EB6A00B1A3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00CDF9151D85EB6A00B1A3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00CDF9151D85EB6A00B1A3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 1; };
 		00CDF9181D85EB6A00B1A3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00CDF91A1D85EB6A00B1A3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00CDF91D1D85EB6A00B1A3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,6 +109,9 @@
 				00CDF91A1D85EB6A00B1A3F1 /* Assets.xcassets */,
 				00CDF91C1D85EB6A00B1A3F1 /* LaunchScreen.storyboard */,
 				00CDF91F1D85EB6A00B1A3F1 /* Info.plist */,
+				006ED8D21D85FCA6001C658A /* Wall.swift */,
+				006ED8D41D85FD10001C658A /* Sticky.swift */,
+				006ED8D61D865268001C658A /* UISticky.swift */,
 			);
 			path = Stickies;
 			sourceTree = "<group>";
@@ -260,6 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				00CDF9161D85EB6A00B1A3F1 /* ViewController.swift in Sources */,
+				006ED8D71D865268001C658A /* UISticky.swift in Sources */,
+				006ED8D31D85FCA6001C658A /* Wall.swift in Sources */,
+				006ED8D51D85FD10001C658A /* Sticky.swift in Sources */,
 				00CDF9141D85EB6A00B1A3F1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +517,7 @@
 				00CDF93A1D85EB6A00B1A3F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00CDF93B1D85EB6A00B1A3F1 /* Build configuration list for PBXNativeTarget "StickiesTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				00CDF93D1D85EB6A00B1A3F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00CDF93E1D85EB6A00B1A3F1 /* Build configuration list for PBXNativeTarget "StickiesUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				00CDF9401D85EB6A00B1A3F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
