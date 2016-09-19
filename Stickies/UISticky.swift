@@ -21,6 +21,7 @@ class UISticky : UILabel
 		text = "\(sticky)"
 		isUserInteractionEnabled = true
 		makeMovable()
+		makeDropshadow()
 	}
 
 	required init?(coder aDecoder: NSCoder) {
@@ -34,6 +35,19 @@ class UISticky : UILabel
 		addGestureRecognizer(panRec)
 	}
 	
+	func makeDropshadow()
+	{
+		layer.shadowColor = UIColor.black.cgColor
+		layer.shadowOpacity = 0.5
+		layer.shadowOffset = CGSize(width:4.0, height:4.0)
+		layer.shadowRadius = 4.0
+//		let shadowRect = CGRect(origin: CGPoint(x: bounds.origin.x, y: bounds.origin.y + bounds.height - (bounds.height/10)),
+//		                        size: CGSize(width: bounds.width, height: bounds.height/10))
+		let shadowRect = CGRect(origin: bounds.origin,
+		                        size: CGSize(width: bounds.width, height: bounds.height * 1.05))
+		layer.shadowPath = UIBezierPath(rect: shadowRect).cgPath
+	}
+
 	func panAction(recognizer: UIPanGestureRecognizer)
 	{
 		if (recognizer.state == .changed)

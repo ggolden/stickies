@@ -10,6 +10,7 @@
 		006ED8D31D85FCA6001C658A /* Wall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006ED8D21D85FCA6001C658A /* Wall.swift */; };
 		006ED8D51D85FD10001C658A /* Sticky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006ED8D41D85FD10001C658A /* Sticky.swift */; };
 		006ED8D71D865268001C658A /* UISticky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006ED8D61D865268001C658A /* UISticky.swift */; };
+		00C064EA1D8F12EF00C3A957 /* WallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C064E91D8F12EF00C3A957 /* WallView.swift */; };
 		00CDF9141D85EB6A00B1A3F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CDF9131D85EB6A00B1A3F1 /* AppDelegate.swift */; };
 		00CDF9161D85EB6A00B1A3F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CDF9151D85EB6A00B1A3F1 /* ViewController.swift */; };
 		00CDF9191D85EB6A00B1A3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CDF9171D85EB6A00B1A3F1 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		006ED8D21D85FCA6001C658A /* Wall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wall.swift; sourceTree = "<group>"; };
 		006ED8D41D85FD10001C658A /* Sticky.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sticky.swift; sourceTree = "<group>"; };
 		006ED8D61D865268001C658A /* UISticky.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISticky.swift; sourceTree = "<group>"; };
+		00C064E91D8F12EF00C3A957 /* WallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallView.swift; sourceTree = "<group>"; };
 		00CDF9101D85EB6A00B1A3F1 /* Stickies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stickies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00CDF9131D85EB6A00B1A3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00CDF9151D85EB6A00B1A3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 1; };
@@ -112,6 +114,7 @@
 				006ED8D21D85FCA6001C658A /* Wall.swift */,
 				006ED8D41D85FD10001C658A /* Sticky.swift */,
 				006ED8D61D865268001C658A /* UISticky.swift */,
+				00C064E91D8F12EF00C3A957 /* WallView.swift */,
 			);
 			path = Stickies;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				TargetAttributes = {
 					00CDF90F1D85EB6A00B1A3F1 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 659J867D6A;
 						ProvisioningStyle = Automatic;
 					};
 					00CDF9231D85EB6A00B1A3F1 = {
@@ -268,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C064EA1D8F12EF00C3A957 /* WallView.swift in Sources */,
 				00CDF9161D85EB6A00B1A3F1 /* ViewController.swift in Sources */,
 				006ED8D71D865268001C658A /* UISticky.swift in Sources */,
 				006ED8D31D85FCA6001C658A /* Wall.swift in Sources */,
@@ -424,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 659J867D6A;
 				INFOPLIST_FILE = Stickies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.objectsInSpace.Stickies;
@@ -436,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 659J867D6A;
 				INFOPLIST_FILE = Stickies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.objectsInSpace.Stickies;

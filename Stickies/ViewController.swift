@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 	
 	@IBOutlet weak var wallLabel: UILabel!
 	
+	@IBOutlet weak var wallView: WallView!
+
 	// a sticky wall
 	let wall: Wall = Wall()
 
@@ -47,6 +49,6 @@ class ViewController: UIViewController {
 	func addStickyUI(_ sticky:Sticky)
 	{
 		let ui = UISticky(origin: CGPoint(x: 16, y: 50), sticky: sticky)
-		self.view.addSubview(ui)
+		wallView.addSubview(ui)
 	}
 }
