@@ -1,4 +1,4 @@
-# scritch
+# stickies
 
 ```
 All code in this repository is Copyright © 2017 Glenn R. Golden. All rights reserved.
